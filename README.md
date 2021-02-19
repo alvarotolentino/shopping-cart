@@ -32,12 +32,12 @@ Your app is ready to be deployed!
 
 The following command run the app into a container:
 
-docker-compose up -d --build
+### `docker-compose up -d --build`
 
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 On the other hand, if you would like a production container, you can run this one:
 
-docker-compose -f docker-compose.prod.yml up -d --build
+### `docker-compose -f docker-compose.prod.yml up -d --build`
 
 Open [http://localhost:1337](http://localhost:1337) to view it in the browser.
